@@ -25,6 +25,7 @@ public class ObjectEncoder extends MessageToMessageEncoder<Object> {
         ByteBuf buffer= Unpooled.buffer();
         buffer.writeBytes(bytes);
         out.add(buffer);
+        System.out.println("dddd");
 
     }
 }
